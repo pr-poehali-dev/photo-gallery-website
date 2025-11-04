@@ -6,28 +6,28 @@ import Icon from '@/components/ui/icon';
 const images = [
   {
     id: 1,
-    url: 'https://cdn.poehali.dev/files/b23c09be-4a74-49fb-9c49-6b0e0f4b341f.jpeg',
-    alt: 'Галерея 2 - фото 1',
+    url: 'https://cdn.poehali.dev/files/18e2323a-63de-4219-bcaa-1ff89f4e57b5.jpg',
+    alt: '73 участок - вид 1',
   },
   {
     id: 2,
-    url: 'https://cdn.poehali.dev/files/8de1c0c7-8a7e-40b8-b5c1-2e37c3e7af9f.jpeg',
-    alt: 'Галерея 2 - фото 2',
+    url: 'https://cdn.poehali.dev/files/5d704522-c787-4982-8b27-6c7b0675d2ff.jpeg',
+    alt: '73 участок - вид 2',
   },
   {
     id: 3,
-    url: 'https://cdn.poehali.dev/files/f1d11151-f1da-4ef4-a6e7-a75e2a9e088e.jpeg',
-    alt: 'Галерея 2 - фото 3',
+    url: 'https://cdn.poehali.dev/files/00d06d28-6f21-44b4-989a-3160edd3efb1.jpeg',
+    alt: '73 участок - вид 3',
   },
   {
     id: 4,
-    url: 'https://cdn.poehali.dev/files/01c53b25-2c48-4ca5-8619-68c6e9c7f21f.jpeg',
-    alt: 'Галерея 2 - фото 4',
+    url: 'https://cdn.poehali.dev/files/19b2cd02-2c9c-48e5-8de2-71819b5b0465.jpeg',
+    alt: '73 участок - вид 4',
   },
   {
     id: 5,
-    url: 'https://cdn.poehali.dev/files/94e13c8f-b8ad-4ff7-86a2-db81f8c2f04a.jpeg',
-    alt: 'Галерея 2 - фото 5',
+    url: 'https://cdn.poehali.dev/files/d8603caf-78b8-4c42-8f64-40d9bb58bfa8.jpeg',
+    alt: '73 участок - вид 5',
   },
 ];
 
@@ -87,10 +87,10 @@ const Gallery2 = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 font-montserrat">
-            Вторая коллекция
+            Участок 73
           </h1>
           <p className="text-lg md:text-xl text-gray-400">
-            Дополнительные фотографии
+            Фотогалерея объекта
           </p>
         </div>
 
