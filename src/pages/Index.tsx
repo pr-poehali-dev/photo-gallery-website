@@ -24,6 +24,16 @@ const images = [
     url: 'https://cdn.poehali.dev/files/7be0eba5-fec4-4718-839b-44a1b150fc00.jpeg',
     alt: '97 участок - вид 4',
   },
+  {
+    id: 5,
+    url: 'https://cdn.poehali.dev/files/8d33fe3a-c44e-4f92-94a9-1d923df637a1.jpg',
+    alt: '97 участок - вид 5',
+  },
+  {
+    id: 6,
+    url: 'https://cdn.poehali.dev/files/f6a05bd5-544c-4520-842d-c89464230a77.jpg',
+    alt: '97 участок - вид 6',
+  },
 ];
 
 const Index = () => {
