@@ -54,19 +54,25 @@ const Index = () => {
       <nav className="border-b border-white/10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold font-montserrat">Участок 97</h2>
+            <h2 className="text-xl font-bold font-montserrat">Галереи</h2>
             <div className="flex gap-4">
               <Link
                 to="/"
                 className="px-4 py-2 rounded-lg bg-[#9b87f5] text-white"
               >
-                Галерея 1
+                Участок 97
               </Link>
               <Link
                 to="/gallery-2"
                 className="px-4 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
               >
-                Галерея 2
+                Участок 73
+              </Link>
+              <Link
+                to="/gallery-3"
+                className="px-4 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
+              >
+                Участок 75
               </Link>
             </div>
           </div>
@@ -76,7 +82,7 @@ const Index = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 font-montserrat">
-            Основная коллекция
+            Участок 97
           </h1>
           <p className="text-lg md:text-xl text-gray-400">
             Фотогалерея объекта

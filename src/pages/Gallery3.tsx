@@ -6,32 +6,22 @@ import Icon from '@/components/ui/icon';
 const images = [
   {
     id: 1,
-    url: 'https://cdn.poehali.dev/files/18e2323a-63de-4219-bcaa-1ff89f4e57b5.jpg',
-    alt: '73 участок - вид 1',
+    url: 'https://cdn.poehali.dev/files/893da24f-923b-40fd-a63f-07accb6bd2ed.jpeg',
+    alt: '75 участок - вид 1',
   },
   {
     id: 2,
-    url: 'https://cdn.poehali.dev/files/5d704522-c787-4982-8b27-6c7b0675d2ff.jpeg',
-    alt: '73 участок - вид 2',
+    url: 'https://cdn.poehali.dev/files/24231517-3c44-46de-a510-1ba8bd0dca53.jpeg',
+    alt: '75 участок - вид 2',
   },
   {
     id: 3,
-    url: 'https://cdn.poehali.dev/files/00d06d28-6f21-44b4-989a-3160edd3efb1.jpeg',
-    alt: '73 участок - вид 3',
-  },
-  {
-    id: 4,
-    url: 'https://cdn.poehali.dev/files/19b2cd02-2c9c-48e5-8de2-71819b5b0465.jpeg',
-    alt: '73 участок - вид 4',
-  },
-  {
-    id: 5,
-    url: 'https://cdn.poehali.dev/files/d8603caf-78b8-4c42-8f64-40d9bb58bfa8.jpeg',
-    alt: '73 участок - вид 5',
+    url: 'https://cdn.poehali.dev/files/89e703ff-61f6-40bb-a485-4d3c62d7d0d4.jpeg',
+    alt: '75 участок - вид 3',
   },
 ];
 
-const Gallery2 = () => {
+const Gallery3 = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
 
   const openImage = (index: number) => {
@@ -59,7 +49,13 @@ const Gallery2 = () => {
       <nav className="border-b border-white/10">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h2 className="text-xl font-bold font-montserrat">Галереи</h2>
+            <Link
+              to="/"
+              className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors"
+            >
+              <Icon name="ArrowLeft" size={20} />
+              <span>Главная</span>
+            </Link>
             <div className="flex gap-4">
               <Link
                 to="/"
@@ -69,13 +65,13 @@ const Gallery2 = () => {
               </Link>
               <Link
                 to="/gallery-2"
-                className="px-4 py-2 rounded-lg bg-[#9b87f5] text-white"
+                className="px-4 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
               >
                 Участок 73
               </Link>
               <Link
                 to="/gallery-3"
-                className="px-4 py-2 rounded-lg text-gray-400 hover:text-white hover:bg-white/5 transition-colors"
+                className="px-4 py-2 rounded-lg bg-[#9b87f5] text-white"
               >
                 Участок 75
               </Link>
@@ -87,7 +83,7 @@ const Gallery2 = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center mb-12 md:mb-16 animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-4 font-montserrat">
-            Участок 73
+            Участок 75
           </h1>
           <p className="text-lg md:text-xl text-gray-400">
             Фотогалерея объекта
@@ -167,4 +163,4 @@ const Gallery2 = () => {
   );
 };
 
-export default Gallery2;
+export default Gallery3;
